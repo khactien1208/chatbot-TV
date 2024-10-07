@@ -1,0 +1,37 @@
+[
+  {
+    "response_type": "chao hoi",
+    "user_input": ["chào bạn","hello","hi","chào shop","xin chào"],
+    "bot_response":"Chào bạn! Mình có thể hỗ trợ gì cho bạn không?",
+    "required_words": ["chào"]
+  },
+  {
+    "response_type": "tu van",
+    "user_input": ["Sản phẩm x có giá bao nhiêu","x có giá bao nhiêu","giá của sản phẩm x"],
+    "bot_response": "Sản phẩm x của chúng tôi hiện đang có giá là A. Bạn có muốn biết thêm về sản phẩm này không ạ?",
+    "required_words": ["giá","sản phẩm x","bao nhiêu"]
+  },
+  {
+    "response_type": "so sanh",
+    "user_input": ["tôi đang phân vân giữa sản phẩm x và y","sản phẩm A và sản phẩm B"],
+    "bot_response": "Mình sẽ giúp bạn so sánh để chọn sản phẩm phù hợp nhất nhé.",
+    "required_words": ["sản phẩm x và sản phẩm y","phân vân"]
+  },
+  {
+    "response_type":"giai dap",
+    "user_input": ["sản phẩm này có bảo hành không","có bảo hành không","bảo hành không"],
+    "bot_response": "Tất cả sản phẩm của chúng tôi đều được bảo hành. Trong thời gian bảo hành, nếu sản phẩm có bất kỳ lỗi kỹ thuật nào, chúng tôi sẽ hỗ trợ sửa chữa hoặc đổi mới hoàn toàn. ",
+    "required_words": ["bảo hành","?"]
+  },
+    {
+    "response_type":"đat hang",
+    "user_input": ["tôi muốn đặt hàng","tôi muốn mua sản phẩm này"],
+    "bot_response": "Bạn vui lòng để lại thông tin liên hệ và địa chỉ giao hàng để chúng tôi tiến hành xử lý đơn hàng.",
+    "required_words": ["đặt hàng","mua sản phẩm"]
+  },  {
+    "response_type":"cam on",
+    "user_input": ["cảm ơn nha","cảm ơn","cảm ơn nhé"],
+    "bot_response": "Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với chúng tôi.",
+    "required_words": ["cảm ơn"]
+  }
+]
